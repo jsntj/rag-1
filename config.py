@@ -11,7 +11,7 @@ class Config:
     """Application configuration"""
     
     # API Keys
-    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+    OPENAI_API_KEY = os.getenv("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")
     ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
     HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API_KEY")
     
